@@ -1,9 +1,17 @@
 body {
   margin-left: 200px;
-  background-color: skyblue;
-  color: white;
+  background-color: gainsboro;
+  color: black;
 }
-
+div.firstP p{
+  background-color:  whitesmoke;
+}
+div.secondP p{
+  background-color: thistle;
+}
+div.thirdP p{
+  background-color: seashell;
+}
 ul.navbar {
   position: absolute;
   top: 30px;
@@ -12,7 +20,8 @@ ul.navbar {
   list-style-type: none;
 }
 h1 {
-	color: #17252a;
+  color: #17252a;
+  font-style: italic;
 
 }
 ul.navbar li {
@@ -28,12 +37,8 @@ ul.navbar a {
   text-decoration: none;
 }
 a:link{
-	color: white;
+  color: white;
 }
 a:visited{
-	color: white;
-}
-img{
-	width: 50px;
-	height: 50px;
+  color: white;
 }
